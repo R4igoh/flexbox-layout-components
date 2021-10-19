@@ -23,6 +23,7 @@
     min-block-size: var(--minBlockSize);
     block-size: calc(100vh - var(--bottomSize));
     overflow: auto;
+    width: 100%;
 }
 
 .layout-bottom {
