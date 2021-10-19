@@ -1,0 +1,16 @@
+.flexOrder {
+    display: flex;
+    gap: 5em;
+}
+
+.flexOrder img {
+    border-radius: 50%;
+}
+
+.flexOrder:nth-child(odd) p{
+    order: 1;
+}
+
+.flexOrder:nth-child(odd) img{
+    order: 2;
+}
