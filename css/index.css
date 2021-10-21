@@ -9,6 +9,8 @@
 @import './page.css';
 @import './layout.css';
 @import './scrollbar.css';
+@import './search-page.css';
+@import './colors.css';
 
 
 :root {

@@ -1,0 +1,23 @@
+.is-red {
+    background: rgb(230, 30, 50);
+}
+
+.is-orange {
+    background: rgb(225, 51, 0);
+}
+
+.is-purple {
+    background: rgb(141, 103, 171);
+}
+
+.is-light-orange {
+    background: rgb(186, 93, 7);
+}
+
+.is-green-blue {
+    background: rgb(39, 133, 106);
+}
+
+.is-dark-blue {
+    background: rgb(30, 50, 100);
+}
