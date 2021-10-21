@@ -19,6 +19,7 @@
     inline-size: 25rem;
     border-radius: .5rem;
     overflow: hidden;
+    flex-shrink: 0;
 }
 
 .most-listened-item-title {
@@ -61,7 +62,9 @@
     position: relative;
     aspect-ratio: 1/1;
     min-inline-size: 11.25rem;
+    max-inline-size: 13rem;
     overflow: hidden;
     border-radius: 0.5rem;
     flex-shrink: 0;
+    flex: 1;
 }

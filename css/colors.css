@@ -21,3 +21,27 @@
 .is-dark-blue {
     background: rgb(30, 50, 100);
 }
+
+.is-light-blue {
+    background: rgb(80, 155, 245);
+}
+
+.is-blue {
+    background: rgb(13, 115, 236);
+}
+
+.is-green {
+    background: rgb(20, 138, 8);
+}
+
+.is-gray{
+    background: rgb(119, 119, 119);
+}
+
+.is-dark-purple {
+    background: rgb(175, 40, 150);
+}
+
+.is-light-brown {
+    background: rgb(144, 114, 85);
+}
