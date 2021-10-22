@@ -54,17 +54,19 @@
     font-size: 1.5rem;
     font-family: var(--baseFontFamily);
     position: absolute;
-    margin: 1rem;
+    padding: 1rem;
     line-height: 1.3em;
+    inline-size: 9.25rem;
+    margin: 0;
+    overflow-wrap: break-word;
 }
 
 .explore-list-item {
     position: relative;
     aspect-ratio: 1/1;
-    min-inline-size: 11.25rem;
-    max-inline-size: 13rem;
+    inline-size: 11.25rem;
+    /* max-inline-size: 11.25rem; */
     overflow: hidden;
     border-radius: 0.5rem;
     flex-shrink: 0;
-    flex: 1;
 }

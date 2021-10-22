@@ -1,0 +1,60 @@
+.favorite-songs-container {
+    background: linear-gradient(149.46deg,#450af5,#8e8ee5 99.16%);
+    padding: 1rem;
+    max-inline-size: 28.75rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.artist-song-container {
+    padding-block-end: 1.5rem;
+}
+
+.favorite-songs h2 {
+    color: white;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin: 0;
+}
+
+.song-you-love span {
+    color: var(--white);
+}
+
+.library-list {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.artist-song {
+    /* display: flex;
+    align-items: bottom; */
+    text-align: justify;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    max-height: 130px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    width: 100%;
+}
+
+.artist-song span {
+    font-size: 1rem;
+    
+}
+
+.artist-song span:nth-of-type(odd) {
+    color: var(--white);
+}
+
+.artist-song span::after {
+    content: ' ·';
+    color: white;
+}
