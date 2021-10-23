@@ -33,6 +33,10 @@
     --small: normal 0.75em/normal var(--baseFontFamily);
 }
 
+.is-pointer {
+    cursor: pointer;
+}
+
 /* @media screen and (min-width: 768px){
     :root {
         font-size: 18px;
