@@ -25,6 +25,7 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="./favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+    <script src="./js/javascript.js"></script>
 </head>
 <body class="body">
     <div class="layout">
@@ -38,22 +39,22 @@
                     </header>
                     <nav class="menu" aria-label="Principal">
                         <ul class="menu-list">
-                            <li class="menuItem">
-                                <a class="link" href="/" aria-current="page">
+                            <li class="menuItem is-active">
+                                <a class="link" href="./index.html" aria-current="page">
                                     <i class="icon-home" aria-hidden="true"></i>
                                     <span>Inicio</span>
                                 </a>
                             </li>
-                            <li class="menuItem is-active">
-                                <a class="link" href="/">
+                            <li class="menuItem">
+                                <a class="link" href="./search.html">
                                     <i class="icon-search" aria-hidden="true"></i>
                                     <span>Buscar</span>
                                 </a>
                             </li>
                             <li class="menuItem">
-                                <a class="link" href="/">
-                                    <i class="icon-creditCard" aria-hidden="true"></i>
-                                    <span>Premium</span>
+                                <a class="link" href="./library.html">
+                                    <i class="icon-library" aria-hidden="true"></i>
+                                    <span>Tu biblioteca</span>
                                 </a>
                             </li>
                             
@@ -64,7 +65,7 @@
                         <ul class="list-content">
                             <li class="list-item">
                                 <span class="ellipsis">
-                                    <a href="#escuchado-recientemente" class="link">Escuchado recientemente</a>
+                                    <a href="./favorite-songs.html" class="link">Canciones que te gustan</a>
                                 </span>
                             </li>
                             <li class="list-item">
@@ -138,7 +139,7 @@
                         <div class="page-block">            
                             <header class="header" aria-label="Barra superior y menú del usuario">   
                                 <div class="navigation">
-                                    <button class="navigation-prev" aria-label="Volver" title="Volver">
+                                    <button class="navigation-prev is-pointer" onclick="goBack()" aria-label="Volver" title="Volver">
                                         <i class="icon-arrowLeft" aria-hidden="true"></i>
                                     </button>
                                     <button class="navigation-next" disabled aria-label="Avanzar" title="Avanzar">
@@ -148,14 +149,12 @@
                                 
                                 <form class="search" action="" role="search" aria-label="Buscar por artistas, canciones o podcasts">
                                     <i class="icon-search" aria-hidden="true"></i>
-                                    <input type="search" placeholder="Buscar por artistas, canciones o podcasts">
-                    
+                                    <input type="search" placeholder="Buscar por artistas, canciones o podcasts">                    
                                 </form>
                             </header>
                         </div>
                     </div>
-                    <main class="page-block">
-                        
+                    <main class="page-block">                        
                     </main>
                 </div>
             </div>

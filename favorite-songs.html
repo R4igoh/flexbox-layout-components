@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotifu</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <meta property="og:title" content="Spotifu" />
+    <meta property="og:type" content="website" />
+    <link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <script src="./js/javascript.js"></script>
+</head>
+<body class="body">
+    <div class="layout">
+        <div class="layout-block">
+            <div class="layout-sidebar">
+                <div class="sidebar">
+                    <header class="logo" role="banner">
+                        <a href="/" aria-current="page">
+                            <img src="./images/spotifu-logo.png" height="32" width="112" alt="Logo de Spotifu">
+                        </a>
+                    </header>
+                    <nav class="menu" aria-label="Principal">
+                        <ul class="menu-list">
+                            <li class="menuItem">
+                                <a class="link" href="./index.html" aria-current="page">
+                                    <i class="icon-home" aria-hidden="true"></i>
+                                    <span>Inicio</span>
+                                </a>
+                            </li>
+                            <li class="menuItem">
+                                <a class="link" href="./search.html">
+                                    <i class="icon-search" aria-hidden="true"></i>
+                                    <span>Buscar</span>
+                                </a>
+                            </li>
+                            <li class="menuItem">
+                                <a class="link" href="./library.html">
+                                    <i class="icon-library" aria-hidden="true"></i>
+                                    <span>Tu biblioteca</span>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </nav>
+                    <nav class="list" aria-labelledby="library-navigation">
+                        <h2 class="list-title" id="library-navigation">Tu biblioteca</h2>
+                        <ul class="list-content">
+                            <li class="list-item">
+                                <span class="ellipsis">
+                                    <a href="./favorite-songs.html" class="link is-white-text">Canciones que te gustan</a>
+                                </span>
+                            </li>
+                            <li class="list-item">
+                                <a href="#lo-mas-escuchado" class="link">Lo más escuchado</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#recomendado-para-ti" class="link">Recomendado para ti</a>
+                            </li>
+                        </ul>        
+                    </nav>
+                    <nav class="list" aria-labelledby="playlist-navigation">
+                        <h2 class="list-title" id="playlist-navigation">Playlist</h2>
+                        <ul class="list-content">
+                            <li class="list-item">
+                                <span class="ellipsis">
+                                    <a href="#" class="link">Derby Motoreta's Burrito Kachimba</a>
+                                </span>
+                            </li>
+                            <li class="list-item">
+                                <span class="ellipsis">
+                                    <a href="#" class="link">Caravan Palace</a>
+                                </span>
+                            </li>
+                            <li class="list-item">
+                                <a href="#" class="link">Eminem</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#" class="link">Los Piratas</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#" class="link">The Beatles</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#" class="link">Queen</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#" class="link">Amaral</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#" class="link">El Chojin</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#" class="link">Los Chunguitos</a>
+                            </li>
+                            </li>
+                            <li class="list-item">
+                                <a href="#" class="link">Delaporte</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#" class="link">Estopa</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#" class="link">Vetusta Morla</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#" class="link">Korn</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#" class="link">Queens of the Stone Age</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#" class="link">Varry Brava</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="layout-main">
+                <div class=""> 
+                    <div class="sticky">    
+                        <div class="page-block">            
+                            <header class="header" aria-label="Barra superior y menú del usuario">   
+                                <div class="navigation">
+                                    <button class="navigation-prev is-pointer" onclick="goBack()" aria-label="Volver" title="Volver">
+                                        <i class="icon-arrowLeft" aria-hidden="true"></i>
+                                    </button>
+                                    <button class="navigation-next" disabled aria-label="Avanzar" title="Avanzar">
+                                        <i class="icon-arrowRight" aria-hidden="true"></i>
+                                    </button>
+                                </div>
+                                
+                                <form class="search" action="" role="search" aria-label="Buscar por artistas, canciones o podcasts">
+                                    <i class="icon-search" aria-hidden="true"></i>
+                                    <input type="search" placeholder="Buscar por artistas, canciones o podcasts">
+                    
+                                </form>
+                            </header>
+                        </div>
+                    </div>
+                    <div class="favorite-header-container">
+                        <div class="favorite-header">
+                            <div class="title-container">                            
+                                <div class="favorite-header-image">
+                                    <img src="./images/heart.png" alt="" height="240px" width="240px">
+                                </div>
+                                <div class="favorite-header-title">
+                                    <h2>PLAYLIST</h2>
+                                    <h1>Canciones que te gustan</h1>
+                                    <div>
+                                        <span class="is-white-text">PaulM</span>
+                                        <span>· 325 canciones</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <main class="page-block">                        
+                        <div class="song-list">
+                            <div class="song-list-header">
+                                <div class="song-list-title">
+                                    <span>#</span>
+                                    <p>TÍTULO</p>
+                                </div>
+                                <p>ÁLBUM</p>
+                                <p>FECHA INCORPORACIÓN</p>
+                                <span><i class="icon-clock"></i></span>
+                            </div>
+                            <div class="song-list-body">
+                                <div class="song-card">
+                                    <div class="song-card-title">
+                                        <p>1</p>
+                                        <div class="song-artist-card">
+                                            <img src="./images/minis/peggy-lee-big-spender.jpg" height="40" width="40" alt="">
+                                            <div class="song-artist-text">
+                                                <span>Big Spender</span>
+                                                <span>Peggy Lee</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="album">
+                                        <span>Big $pender</span>                                        
+                                    </div>
+                                    <div class="song-date">
+                                        <span>24 sept 2021</span>                                        
+                                    </div>
+                                    <div class="song-duration">
+                                        <span>2:07</span>
+                                    </div>
+                                </div>
+
+                                <div class="song-card">
+                                    <div class="song-card-title">
+                                        <p>2</p>
+                                        <div class="song-artist-card">
+                                            <img src="./images/minis/until-we-bleed.jpg" height="40" width="40" alt="">
+                                            <div class="song-artist-text">
+                                                <span>Until We Bleed (feat. Lykke Li)</span>
+                                                <span>Kleerup, Lykke Li</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="album">
+                                        <span>Kleerup</span>                                        
+                                    </div>
+                                    <div class="song-date">
+                                        <span>24 sept 2021</span>                                        
+                                    </div>
+                                    <div class="song-duration">
+                                        <span>4:24</span>
+                                    </div>
+                                </div>
+                                <div class="song-card">
+                                    <div class="song-card-title">
+                                        <p>3</p>
+                                        <div class="song-artist-card">
+                                            <img src="./images/minis/i-follow.jpg" height="40" width="40" alt="">
+                                            <div class="song-artist-text">
+                                                <span>I Follow Rivers</span>
+                                                <span>Lykke Li</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="album">
+                                        <span>Wounded Rhymes</span>                                        
+                                    </div>
+                                    <div class="song-date">
+                                        <span>24 sept 2021</span>                                        
+                                    </div>
+                                    <div class="song-duration">
+                                        <span>3:48</span>
+                                    </div>
+                                </div>
+                                <div class="song-card">
+                                    <div class="song-card-title">
+                                        <p>4</p>
+                                        <div class="song-artist-card">
+                                            <img src="./images/minis/bum.jpg" height="40" width="40" alt="">
+                                            <div class="song-artist-text">
+                                                <span>BUM (feat. Chillin Hommie & Kid Milli)</span>
+                                                <span>RAVI, Chillin Homie, kid Milli</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="album">
+                                        <span>BUM (feat. Chillin Hommie & Kid Milli)</span>                                        
+                                    </div>
+                                    <div class="song-date">
+                                        <span>10 sept 2021</span>                                        
+                                    </div>
+                                    <div class="song-duration">
+                                        <span>3:06</span>
+                                    </div>
+                                </div>
+                                <div class="song-card">
+                                    <div class="song-card-title">
+                                        <p>5</p>
+                                        <div class="song-artist-card">
+                                            <img src="./images/minis/tranquilisimo.jpg" height="40" width="40" alt="">
+                                            <div class="song-artist-text">
+                                                <span>Tranquilísimo</span>
+                                                <span>Israel B, C. Tangana, LOWLIGHT</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="album">
+                                        <span>Tranquilísimo</span>                                        
+                                    </div>
+                                    <div class="song-date">
+                                        <span>9 sept 2021</span>                                        
+                                    </div>
+                                    <div class="song-duration">
+                                        <span>2:23</span>
+                                    </div>                                    
+                                </div>
+                                <div class="song-card">
+                                    <div class="song-card-title">
+                                        <p>6</p>
+                                        <div class="song-artist-card">
+                                            <img src="./images/minis/fatality.jpg" height="40" width="40" alt="">
+                                            <div class="song-artist-text">
+                                                <span>Fatality</span>
+                                                <span>2080, Les Gourmets</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="album">
+                                        <span>Nerd to Geek - EP</span>                                        
+                                    </div>
+                                    <div class="song-date">
+                                        <span>3 sept 2021</span>                                        
+                                    </div>
+                                    <div class="song-duration">
+                                        <span>3:51</span>
+                                    </div>
+                                </div>
+                                <div class="song-card">
+                                    <div class="song-card-title">
+                                        <p>7</p>
+                                        <div class="song-artist-card">
+                                            <img src="./images/minis/evolution.jpg" height="40" width="40" alt="">
+                                            <div class="song-artist-text">
+                                                <span>Evolution</span>
+                                                <span>Korn</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="album">
+                                        <span>Untitled</span>                                        
+                                    </div>
+                                    <div class="song-date">
+                                        <span>31 ago 2021</span>                                        
+                                    </div>
+                                    <div class="song-duration">
+                                        <span>3:37</span>
+                                    </div>
+                                </div>
+                                <div class="song-card">
+                                    <div class="song-card-title">
+                                        <p>8</p>
+                                        <div class="song-artist-card">
+                                            <img src="./images/minis/charlie-sheen.jpg" height="40" width="40" alt="">
+                                            <div class="song-artist-text">
+                                                <span>Charlie Sheen</span>
+                                                <span>Duo Kie</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="album">
+                                        <span>Inferno</span>                                        
+                                    </div>
+                                    <div class="song-date">
+                                        <span>30 ago 2021</span>                                        
+                                    </div>
+                                    <div class="song-duration">
+                                        <span>3:24</span>
+                                    </div>
+                                </div>
+                                <div class="song-card">
+                                    <div class="song-card-title">
+                                        <p>9</p>
+                                        <div class="song-artist-card">
+                                            <img src="./images/minis/canon.jpg" height="40" width="40" alt="">
+                                            <div class="song-artist-text">
+                                                <span>Canon</span>
+                                                <span>OVERWERK</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="album">
+                                        <span>Canon</span>                                        
+                                    </div>
+                                    <div class="song-date">
+                                        <span>27 ago 2021</span>                                        
+                                    </div>
+                                    <div class="song-duration">
+                                        <span>4:58</span>
+                                    </div>
+                                </div>
+                                <div class="song-card">
+                                    <div class="song-card-title">
+                                        <p>10</p>
+                                        <div class="song-artist-card">
+                                            <img src="./images/minis/supersonics.jpg" height="40" width="40" alt="">
+                                            <div class="song-artist-text">
+                                                <span>Supersonics (Out Come the Freaks Edit)</span>
+                                                <span>2080, Les Gourmets</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="album">
+                                        <span>Supersonics (Out Come the Freaks Edit)</span>                                        
+                                    </div>
+                                    <div class="song-date">
+                                        <span>27 ago 2021</span>                                        
+                                    </div>
+                                    <div class="song-duration">
+                                        <span>2:53</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+            </div>
+        </div>
+
+        <div class="layout-block">
+            <footer class="layout-bottom">
+                <div class="player">
+                    <div class="player-nowPlaying">
+                        <div class="nowPlaying">
+                            <div class="nowPlaying-cover">
+                                <img src="./images/grand-scape.png" alt="Portada Grand Escape (feat. Tokio Miura) de RADWIMPS, Toko Miura" height="56" width="56" title="Portada Grand Escape (feat. Tokio Miura) de RADWIMPS, Toko Miura">
+                            </div>
+                            <div class="nowPlaying-details">
+                                <div class="nowPlaying-description">
+                                    <a class="nowPlaying-title" href="#song">Grand Escape (feat. Tokio Miura)</a>
+                                    <a class="nowPlaying-artist" href="#RADWIMS">RADWIMPS, Toko Miura</a>
+                                </div>
+                                <div class="nowPlaying-actions">
+                                    <button aria-describedby="icon-heart" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca" class="player-control">
+                                        <i class="icon-heart" id="icon-heart" aria-hidden="true" ></i>
+                                    </button>               
+                                </div>            
+                            </div>
+                            <i class=""></i>
+                        </div>
+                    </div>
+        
+                    <div class="player-playerControls">
+                        <div class="playerControls">
+                            <div class="playerControls-buttons" aria-label="Controles de reproducción">
+                                <button class="buttonIcon" aria-label="Anterior" title="Anterior">
+                                    <i class="icon-prev" aria-hidden="true"></i>
+                                </button>
+                            
+                                <button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir">
+                                    <i class="icon-play" aria-hidden="true"></i>
+                                </button>
+                            
+                                <button class="buttonIcon" aria-label="Siguiente" title="Siguiente">
+                                    <i class="icon-next" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                            <div class="playerPlayback">
+                                <span class="playerPlayback-progressTime">01:40</span>
+                                <div class="playerPlayback-slider">
+                                    <div class="slider">
+                                        <div class="slider-progress">
+                                            <button class="slider-button" aria-label="Controlar el progreso de la reproducción"></button>
+                                        </div>
+                                    </div>
+                                </div>            
+                                <span class="playerPlayback-progressTime">01:40</span>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="player-playerVolume">
+                        <div class="playerVolume">
+                            <button aria-describedby="volumen-icon" aria-label="Silenciar" class="player-control">
+                                <i class="icon-volumeUp" id="volumen-icon" role="button" aria-label="Volumen alto" ></i>
+                            </button>
+                            <div class="playerVolume-slider">
+                                <div class="slider">
+                                    <div class="slider-progress">
+                                        <button class="slider-button" aria-label="Controlar el progreso de la reproducción"></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+         
+    </div>
+</body>
+
+</html>

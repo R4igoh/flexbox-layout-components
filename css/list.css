@@ -27,3 +27,9 @@
     font: var(--baseFontBold);
     transition: color .2s;
 }
+
+.list-header {
+    inline-size: 100%;
+    display: flex;
+    flex: 1;   
+}

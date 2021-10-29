@@ -1,3 +1,7 @@
+.is-white-text {
+    color: var(--white);
+}
+
 .is-red {
     background: rgb(230, 30, 50);
 }
