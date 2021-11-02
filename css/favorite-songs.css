@@ -5,6 +5,13 @@
     margin-block-start: -4.5rem;
 }
 
+.favorite-header-container-2020 {
+    block-size: 21.25rem;
+    inline-size: 100%;
+    background-color: rgb(34, 157, 228);
+    margin-block-start: -4.5rem;
+}
+
 .favorite-header {
     inline-size: 100%;
     block-size: 100%;    
